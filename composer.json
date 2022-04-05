@@ -1,0 +1,6 @@
+{
+    "name":"extensao/pdf",
+    "require": {
+        "dompdf/dompdf": "^1.2"
+    }
+}
