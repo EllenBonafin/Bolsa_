@@ -28,7 +28,7 @@ p{
 
 .content{
     display: flex;
-    justify-content: center;
+    justify-content: column;
     
 }
 
