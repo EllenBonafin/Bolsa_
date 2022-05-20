@@ -1,15 +1,19 @@
 <?php
 //autoload composer
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 
 use Dompdf\Dompdf;
+use Dompdf\Options;
 
-$dompdf = new Dompdf();
+$options = new Options();
+$options->setChroot(__DIR__);
 
-$dompdf->loadHtml('<h1>teste</h1>');
+$dompdf = new Dompdf($options);
+
+// $dompdf->loadHtml('<h1> deu certo inferooooooooo</h1>');
+$dompdf->loadHtmlFile(__DIR__.'/arquivo.html');
 
 $dompdf->render();
+header('Content-type: application/pdf');
+echo $dompdf->output();
 
-$dompdf-> output();
-
-?>
