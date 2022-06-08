@@ -15,7 +15,7 @@
 
     <section class="content">
         <div class="info">
-            <form action="">
+            <form action="" method="post">
                 <!-- 1-3 -->
                 <input class="box" name="name" placeholder="Nome">
                 <input class="box" name="coordenador" placeholder="Coordenador">
@@ -26,13 +26,13 @@
                 <!-- 4-4.2 -->
                 <p>Esta atividade faz parte de algum PROGRAMA Extensão?</p>
                 <div>
-                    <input class="Box-selection" type="checkbox"name="sim"
+                    <input class="Box-selection" type="checkbox"name="escolha[]" value="sim"
                     checked>
                     <label for="scales">Sim</label>
                   </div>
                   
                   <div>
-                    <input class="Box-selection"type="checkbox"name="nao">
+                    <input class="Box-selection"type="checkbox"name="escolha[]" value="nao">
                     <label for="horns">Nao</label>
                   </div>
                 <p> Qual?</p>
@@ -686,11 +686,9 @@
 
 <!--content --------------------------------------------------------------------------------------------------------->
                   </div> 
+                  <input  type="submit" value="Enviar"/>
             </form>
         </div>
     </section>
-    <form class="sub" method="post" action="index.php">
-      <input  type="submit" value="Enviar" />
-    </form>
 </body>
 </html>
