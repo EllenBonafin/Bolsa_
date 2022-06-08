@@ -15,7 +15,7 @@
 
     <section class="content">
         <div class="info">
-            <form action="" method="post">
+            <form action="receptor.php" method="POST">
                 <!-- 1-3 -->
                 <input class="box" name="name" placeholder="Nome">
                 <input class="box" name="coordenador" placeholder="Coordenador">
@@ -686,9 +686,12 @@
 
 <!--content --------------------------------------------------------------------------------------------------------->
                   </div> 
-                  <input  type="submit" value="Enviar"/>
             </form>
         </div>
     </section>
+    <a href="home.html">next</a>
+    <form class="sub" method="post" action="oi.php">
+      <input  type="submit" value="Enviar" />
+    </form>
 </body>
 </html>
