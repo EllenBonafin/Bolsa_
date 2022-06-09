@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +15,7 @@
 
     <section class="content">
         <div class="info">
-            <form action="receptor.php" method="POST">
+            <form action="" method="POST">
                 <!-- 1-3 -->
                 <input class="box" name="name" placeholder="Nome">
                 <input class="box" name="coordenador" placeholder="Coordenador">
@@ -689,8 +689,7 @@
             </form>
         </div>
     </section>
-    <a href="home.html">next</a>
-    <form class="sub" method="post" action="oi.php">
+    <form class="sub" method="post" action="receptor.php">
       <input  type="submit" value="Enviar" />
     </form>
 </body>

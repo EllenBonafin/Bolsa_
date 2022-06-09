@@ -1,15 +1,9 @@
 <?php
- 
-class Handler
-{
-  public static function arrayHandler(){
+
+class Handler{
+  public static function arrayHandler()
+  {
     $a = [];
-
-    $a['oi'] = $_POST['oi'];
-
-    print_r($a);
-
-    die();
+    $a['name'] = $_POST['name'];
   }
-
 }
