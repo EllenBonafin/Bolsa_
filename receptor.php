@@ -21,8 +21,9 @@ $dados = Handler::arrayHandler();
     <h3>MODALIDADE EVENTO</h3>
 
         <div class="dados">
-            <p>Nome:
-            <?= $dados['name']?>
+            <p>Nome:<?php if(isset($_GET['name'])): ?>
+            Your name is <?php echo $_GET["name"]; ?>
+            <?php endif; ?>
             </p>
         </div>
     </div>

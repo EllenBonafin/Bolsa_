@@ -17,7 +17,7 @@
         <div class="info">
             <form action="" method="POST">
                 <!-- 1-3 -->
-                <input class="box" name="name" placeholder="Nome">
+                <input class="box" id="name" name="name" placeholder="Nome">
                 <input class="box" name="coordenador" placeholder="Coordenador">
                 <input class="box" name="periodo"placeholder= "Periodo de Realizaçoes">
                 <!-- <textarea name="" id="" cols="30" rows="10"> -->
@@ -26,7 +26,7 @@
                 <!-- 4-4.2 -->
                 <p>Esta atividade faz parte de algum PROGRAMA Extensão?</p>
                 <div>
-                    <input class="Box-selection" type="checkbox"name="escolha[]" value="sim"
+                    <input class="Box-selection" type="checkbox"name="sim" value="sim"
                     checked>
                     <label for="scales">Sim</label>
                   </div>
