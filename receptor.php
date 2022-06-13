@@ -1,11 +1,3 @@
-<?php
-
-require 'arquivo.php';
-
-$dados = Handler::arrayHandler();
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,14 +13,61 @@ $dados = Handler::arrayHandler();
     <h3>MODALIDADE EVENTO</h3>
 
         <div class="dados">
-            <p>Nome:<?php if(isset($_GET['name'])): ?>
-            Your name is <?php echo $_GET["name"]; ?>
-            <?php endif; ?>
+            <p>Nome:
+            <?php
+            //Declare the array
+            //Prints the array
+
+                echo $_POST["name"] . "\n";
+            
+            ?>
             </p>
+            <p>Nome do Coordenador:
+            <?php
+            //Declare the array
+            //Prints the array
+
+                echo $_POST["coordenador"] . "\n";
+            
+            ?>
+            </p>
+
+            <p>Periodo de realização:
+            <?php
+            //Declare the array
+            //Prints the array
+
+                echo $_POST["periodo"] . "\n";
+            
+            ?>
+            </p>
+
+            <p>
+            Esta atividade faz parte de algum PROGRAMA Extensão?
+            <?php
+                foreach ($_POST['escolha'] as $selectedOption)
+                echo $selectedOption."\n";
+                        
+            ?>
+            </p>
+
+            <p> Qual?</p>
+            Coordenador a do PROGRAMA:
+            <?php
+                echo $_POST["name-coordenador"] . "\n";
+                        
+            ?>
+
+            </p>Esta Atividade de Extensão está articulada?
+            <?php
+                foreach ($_POST['escolha2'] as $selectedOption)
+                echo $selectedOption."\n";
+                        
+            ?>
+
+           
         </div>
     </div>
-    
-
 
 </body>
 </html>

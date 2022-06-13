@@ -15,7 +15,7 @@ $dompdf = new Dompdf($options);
 $dompdf->setPaper('A4');
 
 // $dompdf->loadHtml('<h1> deu certo inferooooooooo</h1>');
-$dompdf->loadHtmlFile(__DIR__.'/index.html');
+$dompdf->loadHtmlFile(__DIR__.'/home.html');
 
 $dompdf->render();
 header('Content-type: application/pdf');

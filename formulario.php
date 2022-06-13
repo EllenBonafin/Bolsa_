@@ -8,20 +8,58 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <h1> ANEXO VI</h1>
+    <h1>ANEXO VI</h1>
     <h2>FORMULÁRIO ESPECÍFICO PARA ATIVIDADES DE EXTENSÃO</h2>
     <h3>MODALIDADE EVENTO</h3>
     <!-- <img src="./style/extensao.png" alt="extensao" aling="center"> -->
+    <form action="receptor.php" method="post">
+      <input class="box" name="name" placeholder="Nome">
+      <input class="box" name="coordenador" placeholder="Coordenador">
+      <input class="box" name="periodo"placeholder= "Periodo de Realizaçoes">
+
+      <!-- <select name="animal[]" multiple>
+        <option value="American">American Black Bear</option>
+        <option value="bicho">Asiatic Black Bear</option>
+        <option value="bicho">Asiatic Black Bear</option>
+      </select> -->
+      <p>Esta atividade faz parte de algum PROGRAMA Extensão?</p>
+                <div>
+                    <input class="Box-selection" type="checkbox"name="escolha[]" value="sim"
+                    checked>
+                    <label for="scales">Sim</label>
+                  </div>
+                  
+                  <div>
+                    <input class="Box-selection"type="checkbox"name="escolha[]" value="nao">
+                    <label for="horns">Nao</label>
+                  </div>
+        <p> Qual?</p>
+        Coordenador(a) do PROGRAMA: 
+        <input class="box" name="name-coordenador" placeholder="Nome">
+
+        <p> Esta Atividade de Extensão está articulada (quando for o caso): </p>
+                <div>
+                    <input class="Box-selection" type="checkbox"name="escolha2[]"
+                    value="Ao ensino">
+                    <label for="scales"">Ao ensino</label>
+                  </div>
+                  
+                  <div>
+                    <input class="Box-selection" type="checkbox"name="escolha2[]" value="A pesquisa">
+                    <label for="horns">A pesquisa</label>
+                  </div>
+
+      <input type="submit" value="Enviar" />
+    </form>
 
     <section class="content">
         <div class="info">
-            <form action="" method="POST">
+            <form action="receptor.php" method="post">
                 <!-- 1-3 -->
-                <input class="box" id="name" name="name" placeholder="Nome">
+                <input class="box" name="name" placeholder="Nome">
                 <input class="box" name="coordenador" placeholder="Coordenador">
                 <input class="box" name="periodo"placeholder= "Periodo de Realizaçoes">
                 <!-- <textarea name="" id="" cols="30" rows="10"> -->
-
 
                 <!-- 4-4.2 -->
                 <p>Esta atividade faz parte de algum PROGRAMA Extensão?</p>
@@ -51,8 +89,6 @@
                     <label for="horns">A pesquisa</label>
                   </div>
 
-
-                 <!-- 5 -->
                   <div class="cinco">
                     <div>
                        <p>UNIDADE ADMINISTRATIVA:</p>
@@ -154,7 +190,7 @@
 
                       <p>GRANDE ÁREA</p>
                   <div>
-                    <input class="Box-selection" type="checkbox"name="">
+                    <input class="Box-selection" type="checkbox" name="">
                     <label for="horns">Ciências Exatas e da Terra</label>
                   </div>
                   <div>
@@ -491,8 +527,7 @@
                       <input class="Box-selection" type="checkbox"name="eletismo"
                       checked>
                       <label for="eletsimo">Estilismo</label>
-                    </div>
-/////////////////////////////////////////////////////////////                    
+                    </div>                  
 
                     
                     <div>
@@ -682,15 +717,11 @@
                       <input class="Box-selection" type="checkbox"name="drogas-dep"
                       checked>
                       <label for="drogas-dep">Uso de drogas e dependência química</label>
-                    </div>
-
-<!--content --------------------------------------------------------------------------------------------------------->
-                  </div> 
+                    </div>        
+              <input type="submit" value="Enviar" />
             </form>
+            
         </div>
     </section>
-    <form class="sub" method="post" action="receptor.php">
-      <input  type="submit" value="Enviar" />
-    </form>
 </body>
 </html>

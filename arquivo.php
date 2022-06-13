@@ -1,9 +1,13 @@
 <?php
 
 class Handler{
-  public static function arrayHandler()
+  public static function arrayHandler($dados)
   {
     $a = [];
-    $a['name'] = $_POST['name'];
+    $a['name'] = $dados["name"];
+    
+
+    return $a;
   }
 }
+?>
