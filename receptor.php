@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="content">
-    <h1> ANEXO VI</h1>
+    <h1>ANEXO VI</h1>
     <h2>FORMULÁRIO ESPECÍFICO PARA ATIVIDADES DE EXTENSÃO</h2>
     <h3>MODALIDADE EVENTO</h3>
 
@@ -19,7 +19,6 @@
             //Prints the array
 
                 echo $_POST["name"] . "\n";
-            
             ?>
             </p>
             <p>Nome do Coordenador:
@@ -28,7 +27,6 @@
             //Prints the array
 
                 echo $_POST["coordenador"] . "\n";
-            
             ?>
             </p>
 
@@ -36,9 +34,7 @@
             <?php
             //Declare the array
             //Prints the array
-
                 echo $_POST["periodo"] . "\n";
-            
             ?>
             </p>
 
@@ -51,19 +47,46 @@
             ?>
             </p>
 
-            <p> Qual?</p>
+            <p> O programa pertence a
+            <?php
+            //Declare the array
+            //Prints the array
+                echo $_POST["qual"] . "\n";
+            ?>
+            atividade
+            </p>
+
+
+            <p> 
             Coordenador a do PROGRAMA:
             <?php
                 echo $_POST["name-coordenador"] . "\n";
                         
             ?>
+            </p>
 
-            </p>Esta Atividade de Extensão está articulada?
+            <p> Esta Atividade de Extensão está articulada 
             <?php
                 foreach ($_POST['escolha2'] as $selectedOption)
                 echo $selectedOption."\n";
                         
-            ?>
+            ?></p>
+
+            <p> Unidade Adiministrativa: 
+            <?php
+                foreach ($_POST['escolha3'] as $selectedOption)
+                echo $selectedOption."\n";
+                        
+            ?></p>
+
+            <p> Campus: 
+            <?php
+                foreach ($_POST['escolha4'] as $selectedOption)
+                echo $selectedOption."\n";
+                        
+            ?></p>
+
+
 
            
         </div>

@@ -27,27 +27,71 @@
                     <input class="Box-selection" type="checkbox"name="escolha[]" value="sim"
                     checked>
                     <label for="scales">Sim</label>
-                  </div>
+                </div>
                   
-                  <div>
+                <div>
                     <input class="Box-selection"type="checkbox"name="escolha[]" value="nao">
                     <label for="horns">Nao</label>
-                  </div>
+                </div>
+      <p> Qual?</p> 
+        <input class="box" name="qual" placeholder="Qual programa essa atividade pertence">
         <p> Qual?</p>
         Coordenador(a) do PROGRAMA: 
         <input class="box" name="name-coordenador" placeholder="Nome">
 
-        <p> Esta Atividade de Extensão está articulada (quando for o caso): </p>
+      <p> Esta Atividade de Extensão está articulada (quando for o caso): </p>
                 <div>
-                    <input class="Box-selection" type="checkbox"name="escolha2[]"
-                    value="Ao ensino">
-                    <label for="scales"">Ao ensino</label>
-                  </div>
+                    <input class="Box-selection" type="checkbox"name="escolha2[]" value="ao Ensino"
+                    checked>
+                    <label for="scales">Ao ensino</label>
+                </div>
                   
-                  <div>
-                    <input class="Box-selection" type="checkbox"name="escolha2[]" value="A pesquisa">
+                <div>
+                    <input class="Box-selection" type="checkbox"name="escolha2[]" value="a pesquisa">
                     <label for="horns">A pesquisa</label>
-                  </div>
+                </div>
+      <p>UNIDADE ADMINISTRATIVA:</p>
+        <div>
+        <input class="Box-selection" type="checkbox"name="escolha3[]" value="Reitoria"
+        checked>
+        <label for="scales">REITORIA</label>
+        </div>
+
+        <div>
+        <input class="Box-selection" type="checkbox"name="escolha3[]" value="HU">
+        <label for="horns">HUOP</label>
+        </div>
+
+        
+      <P> CAMPUS:</P>
+            <div>
+            <input class="Box-selection" type="checkbox"name="escolha4[]"
+            value= "Cascavel">
+             <label for="scales">Cascavel</label>
+            </div>
+
+            <div>
+              <input class="Box-selection" type="checkbox"name="escolha4[]" value="Foz do Iguaçu">
+              <label for="horns">Foz do Iguaçu</label>
+            </div>
+
+            <div>
+              <input class="Box-selection" type="checkbox"name="escolha4[]" value="Francisco Beltrão"
+              checked>
+              <label for="scales">Franciso Beltrão</label>
+            </div>
+                      
+            <div>
+              <input class="Box-selection" type="checkbox"name="escolha4[]" Value="Marechal Candido Rondon">
+              <label for="horns">Marechal Candido Rondon</label>
+            </div>
+
+            <div>
+              <input class="Box-selection" type="checkbox"name="escolha4[]" value="Toledo"
+              checked>
+              <label for="scales">Toledo</label>
+            </div>
+
 
       <input type="submit" value="Enviar" />
     </form>
