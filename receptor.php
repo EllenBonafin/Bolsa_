@@ -86,9 +86,62 @@
                         
             ?></p>
 
+            <p> Centro: 
+            <?php
+                foreach ($_POST['escolha5'] as $selectedOption)
+                echo $selectedOption."\n";
+                        
+            ?></p>
+
+            <p> Deu OKKKKKKKKKKKKKKKKKKKKKKKKK: 
+            <?php
+                foreach ($_POST['escolha6'] as $selectedOption)
+                echo $selectedOption."\n";
+                        
+            ?></p>
+
+            <p>Palavras-Chave:
+                Nome:
+            <?php
+                echo $_POST["name_"] . "\n";
+            ?>
+            </p>
+
+            <p>Coordenador1:
+            <?php
+                echo $_POST["coordenador_"] . "\n";
+            ?>
+            </p>
+
+            
+            <p>Coordenador2:
+            <?php
+                echo $_POST["coordenador2_"] . "\n";
+            ?>
+            </p>
 
 
-           
+
+            <p> Deu 2: 
+            <?php
+                foreach ($_POST['escolha7'] as $selectedOption)
+                echo $selectedOption."\n";
+                        
+            ?></p>
+
+            <p> Deu 3:     
+            <?php
+                foreach ($_POST['escolha8'] as $selectedOption)
+                echo $selectedOption."\n";
+                        
+            ?></p>
+         
+         <p> Deu 4: 
+            <?php
+                foreach ($_POST['escolha9'] as $selectedOption)
+                echo $selectedOption."\n";
+                        
+            ?></p>
         </div>
     </div>
 
