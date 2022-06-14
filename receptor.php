@@ -15,17 +15,11 @@
         <div class="dados">
             <p>Nome:
             <?php
-            //Declare the array
-            //Prints the array
-
                 echo $_POST["name"] . "\n";
             ?>
             </p>
             <p>Nome do Coordenador:
             <?php
-            //Declare the array
-            //Prints the array
-
                 echo $_POST["coordenador"] . "\n";
             ?>
             </p>
