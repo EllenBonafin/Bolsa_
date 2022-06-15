@@ -116,21 +116,21 @@
 
 
 
-            <p> Deu 2: 
+            <p>ÁREA TEMÁTICA PRINCIPAL: 
             <?php
                 foreach ($_POST['escolha7'] as $selectedOption)
                 echo $selectedOption."\n";
                         
             ?></p>
 
-            <p> Deu 3:     
+            <p> ÁREA TEMÁTICA SECUNDARIA:     
             <?php
                 foreach ($_POST['escolha8'] as $selectedOption)
                 echo $selectedOption."\n";
                         
             ?></p>
          
-         <p> Deu 4: 
+         <p> OBJETIVOS DO DESENVOLVIMENTO SUSTENTÁVEL: 
             <?php
                 foreach ($_POST['escolha9'] as $selectedOption)
                 echo $selectedOption."\n";
