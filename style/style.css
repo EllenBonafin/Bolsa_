@@ -71,3 +71,7 @@ form.sub{
     align-items: center;
     padding-left: 50%;
 }
+
+.info input.submit{
+    align-items: center;
+}

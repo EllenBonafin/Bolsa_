@@ -12,7 +12,7 @@
     <h2>FORMULÁRIO ESPECÍFICO PARA ATIVIDADES DE EXTENSÃO</h2>
     <h3>MODALIDADE EVENTO</h3>
     <!-- <img src="./style/extensao.png" alt="extensao" aling="center"> -->
-    <form action="receptor.php" method="post">
+  <form action="receptor.php" method="post">
       <section class="content">
         <div class="info">
           <input class="box" name="name" placeholder="Nome">
@@ -77,7 +77,7 @@
             </div>
 
             <div>
-              <input class="Box-selection" type="checkbox"name="escolha4[]" value="Francisco Beltrão>
+              <input class="Box-selection" type="checkbox"name="escolha4[]" value="Francisco Beltrão">
               <label for="scales">Franciso Beltrão</label>
             </div>
                       
@@ -87,9 +87,11 @@
             </div>
 
             <div>
-              <input class="Box-selection" type="checkbox"name="escolha4[]" value="Toledo>
+              <input class="Box-selection" type="checkbox"name="escolha4[]" value="Toledo">
               <label for="scales">Toledo</label>
             </div>
+
+
             <p>CENTRO</p>
               <div>
                 <input  class="Box-selection" type="checkbox"name="escolha5[]" value="CECA">
@@ -656,7 +658,8 @@
     >
                       <label for="drogas-dep">Uso de drogas e dependência química</label>
                     </div>        
-      <input type="submit" value="Enviar" />
+      <input class="submit"type="submit" value="Enviar"/>
+      <<button type="button" class="btn btn-secondary btn-sm">Small button</button>
   </form>     
         </div>
     </section>

@@ -26,8 +26,6 @@
 
             <p>Periodo de realização:
             <?php
-            //Declare the array
-            //Prints the array
                 echo $_POST["periodo"] . "\n";
             ?>
             </p>
@@ -43,8 +41,6 @@
 
             <p> O programa pertence a
             <?php
-            //Declare the array
-            //Prints the array
                 echo $_POST["qual"] . "\n";
             ?>
             atividade
@@ -64,7 +60,8 @@
                 foreach ($_POST['escolha2'] as $selectedOption)
                 echo $selectedOption."\n";
                         
-            ?></p>
+            ?>
+            </p>
 
             <p> Unidade Adiministrativa: 
             <?php
@@ -78,21 +75,24 @@
                 foreach ($_POST['escolha4'] as $selectedOption)
                 echo $selectedOption."\n";
                         
-            ?></p>
+            ?>
+            </p>
 
             <p> Centro: 
             <?php
                 foreach ($_POST['escolha5'] as $selectedOption)
                 echo $selectedOption."\n";
                         
-            ?></p>
+            ?>
+            </p>
 
-            <p> Deu OKKKKKKKKKKKKKKKKKKKKKKKKK: 
+            <p> Grande Area: 
             <?php
                 foreach ($_POST['escolha6'] as $selectedOption)
                 echo $selectedOption."\n";
                         
-            ?></p>
+            ?>
+            </p>
 
             <p>Palavras-Chave:
                 Nome:
@@ -110,7 +110,7 @@
             
             <p>Coordenador2:
             <?php
-                echo $_POST["coordenador2_"] . "\n";
+                echo $_POST["coordenador_2"] . "\n";
             ?>
             </p>
 
@@ -130,7 +130,7 @@
                         
             ?></p>
          
-         <p> OBJETIVOS DO DESENVOLVIMENTO SUSTENTÁVEL: 
+            <p> OBJETIVOS DO DESENVOLVIMENTO SUSTENTÁVEL: 
             <?php
                 foreach ($_POST['escolha9'] as $selectedOption)
                 echo $selectedOption."\n";
