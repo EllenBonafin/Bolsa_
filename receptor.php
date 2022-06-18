@@ -78,7 +78,7 @@
             ?>
             </p>
 
-            <p> Centro: 
+            <p> Centro Afeto: 
             <?php
                 foreach ($_POST['escolha5'] as $selectedOption)
                 echo $selectedOption."\n";
