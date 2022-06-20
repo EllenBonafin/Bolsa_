@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anexo</title>
 </head>
 <body>
     <div class="content">
@@ -133,6 +133,13 @@
             <p> OBJETIVOS DO DESENVOLVIMENTO SUSTENTÁVEL: 
             <?php
                 foreach ($_POST['escolha9'] as $selectedOption)
+                echo $selectedOption."\n";
+                        
+            ?></p>
+
+            <p> LINHA DE EXECUÇÃO: 
+            <?php
+                foreach ($_POST['escolha10'] as $selectedOption)
                 echo $selectedOption."\n";
                         
             ?></p>
