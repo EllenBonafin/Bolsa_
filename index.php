@@ -10,12 +10,13 @@ $options->setChroot(__DIR__);
 $options->setIsRemoteEnabled(true); //usar links de imagens e outras coisas 
 
 $dompdf = new Dompdf($options);
+$html= file_get_contents('receptor.php');
 
 //pagina
 $dompdf->setPaper('A4');
 
 // $dompdf->loadHtml('<h1> deu certo inferooooooooo</h1>');
-$dompdf->loadHtmlFile(__DIR__.'/home.html');
+$dompdf->load_html($html);
 
 $dompdf->render();
 header('Content-type: application/pdf');

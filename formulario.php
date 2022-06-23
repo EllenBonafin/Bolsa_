@@ -593,8 +593,7 @@
                   <input class="Box-selection" type="checkbox"name="escolha10[]" value="Uso de drogas e dependência química">
                   <label for="drogas-dep">Uso de drogas e dependência química</label>
                 </div>        
-      <input class="submit"type="submit" value="Enviar"/>
-      <<button type="button" class="btn btn-secondary btn-sm">Small button</button>
+      <input class="submit" type="submit" value="Enviar"/>
   </form>     
         </div>
     </section>
