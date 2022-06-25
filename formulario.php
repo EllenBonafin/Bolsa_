@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <h1>ANEXO VI</h1>
-    <h2>FORMULÁRIO ESPECÍFICO PARA ATIVIDADES DE EXTENSÃO</h2>
-    <h3>MODALIDADE EVENTO</h3>
+  <h1>ANEXO VI</h1>
+  <h2>FORMULÁRIO ESPECÍFICO PARA ATIVIDADES DE EXTENSÃO</h2>
+  <h3>MODALIDADE EVENTO</h3>
     <!-- <img src="./style/extensao.png" alt="extensao" aling="center"> -->
     <!-- ALGUMAS INFORMAÇOES NECESSARIAS: Para levar as informçoes do html para o php foi usado name e para multipla escolha foi colo
     cado um vetor onde ele pega apenas os names escolidos e retorna o que tem dentro do "value" -->
