@@ -592,7 +592,120 @@
                 <div>
                   <input class="Box-selection" type="checkbox"name="escolha10[]" value="Uso de drogas e dependência química">
                   <label for="drogas-dep">Uso de drogas e dependência química</label>
-                </div>        
+                </div> 
+                
+              <p>PÚBLICO ALVO</p>
+              <input class="box" name="PB" placeholder="">
+              <p>NÚMERO DE PESSOAS A SEREM BENEFICIADAS: </p>
+              <input class="box" name="bene" placeholder="">
+              CARGA HORÁRIA TOTAL:
+              <input class="box" name="CH" placeholder=""> 
+
+              <p>MODALIDADE DO EVENTO</p>
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha11[]" value="Seminário">
+                  <label for="drogas-dep">Seminário</label>
+                </div> 
+
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha11[]" value="Encontro">
+                  <label for="drogas-dep">Encontro</label>
+                </div> 
+
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha11[]" value="Congresso">
+                  <label for="drogas-dep">Congresso</label>
+                </div> 
+
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha11[]" value="Simpósio">
+                  <label for="drogas-dep">Simpósio</label>
+                </div> 
+
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha11[]" value="Palestra">
+                  <label for="drogas-dep">Palestra</label>
+                </div> 
+
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha11[]" value="Fórum">
+                  <label for="drogas-dep">Fórum</label>
+                </div> 
+
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha11[]" value="Ciclo">
+                  <label for="drogas-dep">Ciclo</label>
+                </div> 
+
+              Outra:
+              <input class="box" name="Outra" placeholder=""> 
+
+              <p>ÂMBITO DO EVENTO</p>
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha12[]" value="Local">
+                  <label for="drogas-dep">Local</label>
+                </div> 
+
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha12[]" value="Regional">
+                  <label for="drogas-dep">Regional</label>
+                </div> 
+
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha12[]" value="Estadual">
+                  <label for="drogas-dep">Estadual</label>
+                </div> 
+
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha12[]" value="Nacional">
+                  <label for="drogas-dep">Nacional</label>
+                </div> 
+
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha12[]" value="Internacional">
+                  <label for="drogas-dep">Internacional</label>
+                </div> 
+            
+          <!-- OBSER -->
+                <p>RESUMO:incluir introdução, objetivo, aspectos principais da metodologia e contribuições esperadas.sem tabelas, gráficos ou fotos, com no máximo 15 e mínimo de 10 linhas</p> 
+                <input type="text">
+          
+          
+              <p>OBJETIVOS:</p>
+              <input class="box" name="Objetivos" placeholder=""> 
+
+              <p>PROGRAMAÇÃO(incluir nome de palestrante/origem):</p>
+              <input class="box" name="programacao" placeholder=""> 
+
+              <p>EQUIPE DE TRABALHO:</p>
+              <input class="box" name="name_3" placeholder="Nome">
+              <input class="box" name="cpf" placeholder="cpf">
+              <div>
+                  <input class="Box-selection" type="checkbox"name="escolha13[]" value="Docente Efetivo">
+                  <label for="drogas-dep">Docente Efetivo</label>
+                </div> 
+
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha13[]" value="Agente Universitario">
+                  <label for="drogas-dep">Agente Universitario</label>
+                </div> 
+
+                <div>
+                  <input class="Box-selection" type="checkbox"name="escolha13[]" value="Docente Temporário">
+                  <label for="drogas-dep">Docente Temporário</label>
+                </div> 
+
+              <input class="box" name="periodo"placeholder= "Periodo de Realizaçoes">
+
+
+
+
+
+
+
+                
+
+
       <input class="submit" type="submit" value="Enviar"/>
   </form>     
         </div>
