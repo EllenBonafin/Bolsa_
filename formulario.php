@@ -677,7 +677,7 @@
               <p>PROGRAMAÇÃO(incluir nome de palestrante/origem):</p>
               <input class="box" name="programacao" placeholder=""> 
 
-              <p>EQUIPE DE TRABALHO:</p>
+              <!-- <p>EQUIPE DE TRABALHO:</p>
               <input class="box" name="name_3" placeholder="Nome">
               <input class="box" name="cpf" placeholder="cpf">
               <div>
@@ -693,8 +693,48 @@
                 <div>
                   <input class="Box-selection" type="checkbox"name="escolha13[]" value="Docente Temporário">
                   <label for="drogas-dep">Docente Temporário</label>
-                </div> 
+                </div>  -->
+              <p>DISCENTES UNIOESTE:</p>
 
+          <table border="1">
+            <tr>
+              <td>Nome Completo</td>
+              <td>Curso</td>
+              <td>Serie</td>
+              <td>Turno</td>
+              <td>Ch semanal</td>
+              <td>Telefone</td>
+              <td>CPF/RA</td>
+          </tr>
+           <tr>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+          </tr>
+          <tr>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+          </tr>
+
+          <tr>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+              <td><input class="box" name="periodo"placeholder= ""></td>
+          </tr>
+        </table>
               <input class="box" name="periodo"placeholder= "Periodo de Realizaçoes">
 
 
